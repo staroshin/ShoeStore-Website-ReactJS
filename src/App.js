@@ -1,26 +1,13 @@
 import React from 'react';
-
-
 import './App.css';
 import Home from'./Components/home/home.js';
-import Menu from'./Components/menu.js';
-import About from'./Components/about/about.js';
 import Header from './Components/header/Header.js'
-
 import Welcome from './Components/Welcome.js'
-
-import Offers from './Components/Offers.js'
-import Restaurant from './Components/Restaurants.js'
-import Careers from './Components/Careers.js'
-import Rewards from './Components/Rewards.js'
-
-import FoodDetails from './Components/home/sections/FoodDetails.js'
+import All_Category from './Components/home/sections/All_Category.js'
+import GiftDetails from './Components/home/sections/GiftDetails.js'
 import Footer from './Components/footer/Footer.js'
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import image from "./img/fp_logo.png";
-
+import image from "./img/giftown_logo.png";
 import { 
     BrowserRouter as Router, 
     Route, 
@@ -28,7 +15,8 @@ import {
     Link
 } from 'react-router-dom';
 
-
+import Flowers from './Components/home/sections/Flowers';
+import Book from './Components/home/sections/Book';
 
 function App() {
   return (
@@ -37,20 +25,12 @@ function App() {
 
         
           <Header image={image}/>
-     
-          
-          
            <Routes>            
             <Route exact path="/" element={<Home/>}/>
-            <Route path="/menu" element={<Menu />}/>
-
-            <Route path="/offers" element={<Offers />}/>
-            <Route path="/restaurant" element={<Restaurant />}/>
-            <Route path="/careers" element={<Careers />}/>
-            <Route path="/reward" element={<Rewards />}/>
-
-            <Route path="/about" element={<About/>}/>  
-             <Route path="/fooddetails/:id" element={<FoodDetails/>}/>       
+            <Route path="/categories" element={<All_Category />}/>
+            <Route path="/flowers" element={<Flowers />}/>
+            <Route path="/book" element={<Book />}/>           
+            <Route path="/fooddetails/:cat/:id" element={<GiftDetails/>}/>       
            </Routes>
 
 
@@ -58,7 +38,7 @@ function App() {
           <Footer />
 
           
-          <Welcome name="FUDO."/>
+          <Welcome name="Giftown"/>
 
   </Router> 
 

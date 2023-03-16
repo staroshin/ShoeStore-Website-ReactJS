@@ -1,0 +1,46 @@
+{
+  "flowers":[
+  {
+      "id": 1,
+      "name": "Flower 1",
+      "image":"https://cdn.shopify.com/s/files/1/0285/3663/5485/products/PeachFancyFlowerBouquet_FlowerFix_Subscription.9836_500x.jpg?v=1610587470",
+      "cat":"flowers"
+  },
+  {
+      "id": 2,
+      "name": "Flower 2",
+      "image":"../../images/f2.jpg",
+      "cat":"flowers"
+  },
+  {
+      "id": 3,
+      "name": "Flower 3",
+      "image":"../../images/f3.jpg",
+      "cat":"flowers"
+  }
+  ],
+  
+  "book":[
+    {
+        "id": 1,
+        "name": "Book 1",
+        "image":"../../images/b1.jpeg",
+        "cat":"book",
+        "url": "/fooddetails/1"
+    },
+    {
+        "id": 2,
+        "name": "Book 2",
+        "image":"../../images/b2.jpg",
+        "cat":"book",
+        "url": "/fooddetails/2"
+    },
+    {
+        "id": 3,
+        "name": "Book 3",
+        "image":"../../images/b3.jpg",
+        "cat":"book",
+        "url": "/fooddetails/2"
+    }
+    ]
+}

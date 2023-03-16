@@ -35,34 +35,34 @@ function Header(props) {
     </div>
 
     <div class = "nav-item">
-    <NavLink to="/menu" >Menu
+    <NavLink to="/categories" >Categories
     </NavLink>
     </div>
 
     <div class = "nav-item">
-    <NavLink to="/offers">Offers
+    <NavLink to="/account">Account
     </NavLink>
     </div>
 
      <div class = "nav-item">
-    <NavLink to="/restaurant">Restaurants
+    <NavLink to="/notification">Notification
     </NavLink>
     </div>
 
      <div class = "nav-item">
-    <NavLink to="/careers">Careers
+    <NavLink to="/">
     </NavLink>
     </div>
 
       <div class = "nav-item">
-    <NavLink to="/reward">Rewards
+    <NavLink to="/">
     </NavLink>
     </div>
 
 
 
     <div class = "nav-item">
-    <NavLink to="/about">More
+    <NavLink to="/">
     </NavLink>
     </div>
 
@@ -76,21 +76,7 @@ function Header(props) {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-      <Navbar>
-    <Container>
-
-
-      
-       
-
-
-
-
-
-  
-     
-        </Container>
-      </Navbar>
+    
      
     </>
   );

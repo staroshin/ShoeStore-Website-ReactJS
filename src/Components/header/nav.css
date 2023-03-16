@@ -36,13 +36,12 @@
 
 
 
-.navbar
-{
-     background-color: #fdc55e;
+.navbar {
+  background-color: #9E226A;
 }
 
 .nav-item a {
-    color: white;
+        color: #ff8dcf;
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: bold;
@@ -50,7 +49,7 @@
 }
 
 a.active.active {
-    color: #f54748;
+  color: #ffffff;
     font-weight: 900;
     font-size: 20px;
 }
@@ -59,7 +58,7 @@ a.active.active {
   border-radius: 10px!important;
 }
 .nav-item a:hover {
-     color: #f54748;
+     color: white;
 }
 
 
@@ -73,3 +72,8 @@ a.active.active {
 
 
 
+
+
+.nav-link:focus, .nav-link:hover {
+  color: #9e226a;
+}
