@@ -36,7 +36,7 @@ function App() {
           <Footer />
 
           
-          <Welcome name="Giftown"/>
+          <Welcome name="BeautyShopStarApp"/>
 
   </Router> 
 
