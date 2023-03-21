@@ -30,32 +30,32 @@ function Header(props) {
 
 
     <div class = "nav-item">
-    <NavLink to ="/">Home
+    <NavLink to ="/">HOME
     </NavLink>
     </div>
 
     <div class = "nav-item">
-    <NavLink to="/categories" >Categories
+    <NavLink to="/categories" >PAGES
     </NavLink>
     </div>
 
     <div class = "nav-item">
-    <NavLink to="/account">Account
+    <NavLink to="/account">SHOP
     </NavLink>
     </div>
 
      <div class = "nav-item">
-    <NavLink to="/notification">Notification
+    <NavLink to="/notification">CATEGORIES
     </NavLink>
     </div>
 
      <div class = "nav-item">
-    <NavLink to="/">
+    <NavLink to="/blog">BLOG
     </NavLink>
     </div>
 
       <div class = "nav-item">
-    <NavLink to="/">
+    <NavLink to="/contact">CONTACT
     </NavLink>
     </div>
 

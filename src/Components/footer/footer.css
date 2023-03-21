@@ -1,6 +1,6 @@
-.part9{
+.footer{
 padding: 30px 0;
-background: #9e226a;
+background: #222222;
 
 	
 color: white;
@@ -14,9 +14,9 @@ color: white;
 }
 .list_itm p:hover{
 	
-	font-size: 13px;
+	
 	color:#ff8dcf;
-}
+} 
 .f_col
 {
 	width: 80px;
@@ -42,4 +42,10 @@ svg.svg-inline--fa.fa-twitter:hover{
 svg.svg-inline--fa.fa-instagram:hover{
 	color: deeppink;
 	
+}
+
+.pm_img img {
+    border-style: none;
+   
+    margin-right: 5px;
 }

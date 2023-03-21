@@ -3,6 +3,11 @@ import React from 'react';
 
 
 
+import logo from '../../img/giftown_logo2.png'
+import pm1 from '../../img/pm1.png'
+import pm2 from '../../img/pm2.png'
+import pm3 from '../../img/pm3.png'
+import pm4 from '../../img/pm4.png'
 
 
 
@@ -43,20 +48,20 @@ import './footer.css';
 function Footer() {
    return (
 
- <div className="part9">
+ <div className="footer">
 
 <Container>
 
          <Row className="justify-content-center">
-
+{/* Row 1 starts */}
           <Row className="mt-5 mb-5">
 
 
-        <Col xs={12} md={6} className="text-center">
+        <Col xs={12} md={4} className="text-center">
        
         
-
-           <div className="mt-3 icn_items">
+        <p>Find us here:</p>
+           <div className="icn_items">
             
               
                 <FontAwesomeIcon icon={faFacebookF} size="lg" className="m-1"  ></FontAwesomeIcon>
@@ -64,49 +69,114 @@ function Footer() {
                <FontAwesomeIcon icon={faInstagram} size="lg"  className="m-1"></FontAwesomeIcon>
  
           </div>
-          <p>Copyright © 2023</p>
+          
           
            
 
         </Col>
 
-        <Col xs={12} md={2}>
-         <h6>Company</h6>
-
-         <div className="mt-3 list_itm">
-          <p>About us</p>
-          <p>Blog</p>
-          <p>Contact us</p>
-          <p>Pricing</p>
-             <p>Testimonials</p>
- 
-          </div>
-
-        </Col>
-
-        <Col xs={12} md={2}>
-          <h6>Support</h6>
-
-         <div className="mt-3 list_itm">
-          <p>Help center</p>
-          <p>Legal</p>
-          <p>Privacy policy</p>
-          <p>Status</p>
-       
- 
-          </div>
-        </Col>
-
-        <Col xs={12} md={2}>
-          <h6>Contact information</h6>
-          <p className="foot_text" style={{fontSize:"12px"}}>3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,An Nuzhah, Riyadh 12474, Saudi Arabia</p>
+        <Col xs={12} md={4}>
         
-         </Col>
+
+         <div className=" list_itm">
+         
+        </div>
+        </Col>
+
+        <Col className="pm_img" xs={12} md={4}>
+        <p>Payment methods:</p>
+           <div className=" icn_items">
+           <img src={pm1} />
+           <img src={pm2} />
+           <img src={pm3} />
+           <img src={pm4} />
+              
+              
+ 
+          </div>
+        </Col>
+
+        
 
        
 
 
         </Row>
+
+
+{/* Row 2 starts */}
+
+        <Row className="mt-5 mb-5">
+
+
+                            <Col xs={12} md={3} className="text-left">
+
+
+
+                            <h4>About</h4>
+
+                            <div className="mt-3 list_itm">
+                              <p>Help center</p>
+                              <p>Legal</p>
+                              <p>Privacy policy</p>
+                              <p>Status</p>
+
+
+                              </div>
+                             
+                              
+
+                            </Col>
+
+                            <Col xs={12} md={3}>
+
+                            <h4>Categories</h4>
+
+                            <div className="mt-3 list_itm">
+                              <p>Help center</p>
+                              <p>Legal</p>
+                              <p>Privacy policy</p>
+                              <p>Status</p>
+
+
+                              </div>
+
+                            </Col>
+
+                            <Col xs={12} md={3}>
+
+                              <h4>Useful Links</h4>
+
+                            <div className="mt-3 list_itm">
+                              <p>Help center</p>
+                              <p>Legal</p>
+                              <p>Privacy policy</p>
+                              <p>Status</p>
+
+
+                              </div>
+                            </Col>
+
+                            <Col xs={12} md={3}>
+
+                              <h4>Contact</h4>
+
+                            <div className="mt-3 list_itm">
+                              <p>Help center</p>
+                              <p>Legal</p>
+                              <p>Privacy policy</p>
+                              <p>Status</p>
+
+
+                              </div>
+                            </Col>
+
+
+
+
+
+
+</Row>
          </Row>
 
 

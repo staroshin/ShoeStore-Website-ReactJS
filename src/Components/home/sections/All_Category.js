@@ -5,8 +5,8 @@ import Tabs from 'react-bootstrap/Tabs';
 import Container from 'react-bootstrap/Container';
 import './Slider.css';
 import './All_Category.css';
-import Flowers from './Flowers.js'
-import Burger from './Book.js'
+import Makeup from './Makeup.js'
+
 
 
 function All_Category() {
@@ -22,16 +22,28 @@ function All_Category() {
       
     >
       
-      <Tab eventKey="flowers" title="Flowers">
-      <Flowers/>
+      <Tab eventKey="flowers" title="Make up">
+      <Makeup/>
 
 
 
                     
       
       </Tab>
-      <Tab eventKey="book" title="Books">
-          <Burger/>
+      <Tab eventKey="spa" title="SPA">
+        
+      </Tab>
+      <Tab eventKey="perfume" title="Perfume">
+      
+      </Tab>
+      <Tab eventKey="nails" title="Nails">
+          
+      </Tab>
+      <Tab eventKey="sk" title="Skin Care">
+        
+      </Tab>
+      <Tab eventKey="hc" title="Hair Care">
+          
       </Tab>
     </Tabs>
 
