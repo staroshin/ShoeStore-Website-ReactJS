@@ -147,7 +147,7 @@ function Home() {
 
  <div className="part3">
       <Container>
-        <Row className='text-center justify-content-center'>
+        
         
            
           <div className='d-flex justify-content-center'>
@@ -175,7 +175,7 @@ function Home() {
          
     
 
-         </Row>
+       
         
       </Container>
 
@@ -296,7 +296,7 @@ function Home() {
   <Row className=' align-items-center'>
     
 
-        <Col md={6} className="">
+        <Col xd={12} md={6} className="">
               <img className="img-fluid "src={tc4}/>
             
          </Col>
@@ -429,10 +429,15 @@ function Home() {
   <Container>
     <Row className='part10row justify-content-center'>
 
-      <Col xd={8}>
+      <Col xd={8} md={6}>
         <div className='part10_bg d-flex'>
           <img className="img-fluid "src={part10_img}/>
-          <div className="part10_desc">
+          
+        </div>
+     
+      </Col>
+      <Col xd={8} md={6}>
+      <div className="part10_desc">
             <h2>Stay In Touch</h2>
             <p>Nourish your skin with toxin-free cosmetic  roducts. </p>
 
@@ -450,8 +455,6 @@ function Home() {
             
              
           </div>
-        </div>
-     
       </Col>
 
     </Row>

@@ -232,7 +232,8 @@ h5.card-title.layout1{
     line-height: 90px;
 }
 
-.custom_img_place{
+.custom_img_place img{
+	width: 100%;
 
 }
 
@@ -524,6 +525,65 @@ svg.svg-inline--fa.fa-instagram:hover{
 	#home {
 		padding: 6rem 1rem !important;
 	}
+	p{
+		padding: 0px;
+	}
+	.part2 p{
+		padding: 0px;
+	}
+	.custom_text,.part7_2_description{
+		padding: 0px!important;
+	}
+	.samp_logo {
+		margin: 0px!important;
+	}
+	.samp_logo img {
+		width: 100%;
+	 margin: 0px 0px;
+	}
+	.part9_row {
+		padding: 0px!important;
+	}
+	.part10row {
+		padding: 0px!important;
+	}
+
+	.part9 .card-text {
+		
+		font-size: 14px;
+		
+		line-height: normal!important;
+	    width: 100%!important;
+	}
+	.part7_2_description h3 {
+		font-size: large!important;
+	}
+	.part7_2_description .primary_ptext {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		font-size: 14px!important;
+		color: #666666;
+	}
+	.part7_2_description .secondary_ptext {
+		font-size: 14px!important;
+		color: #666666;
+	}
+	.part6row.row {
+		margin: 0;
+		 column-gap: 0px!important; 
+	}
+	.part5 {
+		
+		padding: 0px!important;
+		font-size: 14px;
+	
+	}
+	.custom_row2{
+		padding: 0px!important;
+	}
+	.cus_para {
+		width: 100%!important;
+	}
 }
 
 
@@ -635,7 +695,7 @@ svg.svg-inline--fa.fa-instagram:hover{
 }
 .part7 .col-md-6 {
     flex: 0 0 auto;
-    width: 50%;
+   
     margin: 0;
     padding: 0;
 }

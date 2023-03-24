@@ -77,11 +77,20 @@ a.active.active {
 }
 
 
-@media (min-width:448px) {
-  .navbar-expand-lg .navbar-collapse {
+@media (min-width:320px) and (max-width: 768px) {
+  /* .navbar-expand-lg .navbar-collapse {
     display: flex!important;
     flex-direction: row;
-}
+          } */
+
+      .navbar-nav {
+      margin-left: 0px!important; 
+      }
+      .nav-item {
+        display: inline-block;
+        margin-left: 3px;
+        margin-right: 4px;
+    }
 }
 
 
