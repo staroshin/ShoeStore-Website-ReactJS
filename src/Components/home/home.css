@@ -233,6 +233,13 @@ h5.card-title.layout1{
     font-weight: 800;
 }
 
+.custom_row h2 {
+	color: #FFB19E;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+}
+
 .custom_img_place img{
 	width: 100%;
 
@@ -522,70 +529,7 @@ svg.svg-inline--fa.fa-instagram:hover{
 	font-weight: bold;
 }
 
-@media (min-width:320px) and (max-width: 768px) {
-	#home {
-		padding: 6rem 1rem !important;
-	}
-	p{
-		padding: 0px;
-	}
-	.part2 p{
-		padding: 0px;
-	}
-	.custom_text,.part7_2_description{
-		padding: 0px!important;
-	}
-	.samp_logo {
-		margin: 0px!important;
-	}
-	.samp_logo img {
-		width: 100%;
-	 margin: 0px 0px;
-	}
-	.part9_row {
-		padding: 0px!important;
-	}
-	.part10row {
-		padding: 0px!important;
-	}
 
-	.part9 .card-text {
-		
-		font-size: 14px;
-		
-		line-height: normal!important;
-	    width: 100%!important;
-	}
-	.part7_2_description h3 {
-		font-size: large!important;
-	}
-	.part7_2_description .primary_ptext {
-		margin-top: 25px;
-		margin-bottom: 25px;
-		font-size: 14px!important;
-		color: #666666;
-	}
-	.part7_2_description .secondary_ptext {
-		font-size: 14px!important;
-		color: #666666;
-	}
-	.part6row.row {
-		margin: 0;
-		 column-gap: 0px!important; 
-	}
-	.part5 {
-		
-		padding: 0px!important;
-		font-size: 14px;
-	
-	}
-	.custom_row2{
-		padding: 0px!important;
-	}
-	.cus_para {
-		width: 100%!important;
-	}
-}
 
 
 .col_img{
@@ -729,9 +673,10 @@ svg.svg-inline--fa.fa-instagram:hover{
 }
 
 .custom_heading{
-	color: #222222;
-    font-size: 54px;
-    line-height: 54px;
+	color: #1999B2;
+    font-size: 46px;
+    line-height: 46px;
+    font-weight: 600;
 }
 .custom_text{
 	margin-top: 25px;
@@ -834,4 +779,77 @@ svg.svg-inline--fa.fa-instagram:hover{
 	width: 100%;
 	height: 100%;
 	
+}
+
+/* media settings */
+
+@media (min-width:320px) and (max-width: 768px) {
+	#home {
+		padding: 6rem 1rem !important;
+	}
+	p{
+		padding: 0px;
+	}
+	.part2 p{
+		padding: 0px;
+	}
+	.custom_text,.part7_2_description{
+		padding: 0px!important;
+	}
+	.samp_logo {
+		margin: 0px!important;
+	}
+	.samp_logo img {
+		width: 100%;
+	 margin: 0px 0px;
+	}
+	.part9_row {
+		padding: 0px!important;
+	}
+	.part10row {
+		padding: 0px!important;
+	}
+
+	.part9 .card-text {
+		
+		font-size: 14px;
+		
+		line-height: normal!important;
+	    width: 100%!important;
+	}
+	.part7_2_description h3 {
+		font-size: large!important;
+	}
+	.part7_2_description .primary_ptext {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		font-size: 14px!important;
+		color: #666666;
+	}
+	.part7_2_description .secondary_ptext {
+		font-size: 14px!important;
+		color: #666666;
+	}
+	.part6row.row {
+		margin: 0;
+		 column-gap: 0px!important; 
+	}
+	.part5 {
+		
+		padding: 0px!important;
+		font-size: 14px;
+	
+	}
+	.custom_row2{
+		padding: 0px!important;
+	}
+	.cus_para {
+		width: 100%!important;
+	}
+	.custom_heading {
+		color: #1999B2;
+		font-size: 30px;
+		line-height: 30px;
+		font-weight: 600;
+	}
 }

@@ -25,7 +25,7 @@ function Header(props) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
           <Nav className="">
-          <nav class="navbar ms-auto">
+          <nav class="navbar ">
     <div class = "nav-items">
 
 
