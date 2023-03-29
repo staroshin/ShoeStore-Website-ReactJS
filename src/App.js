@@ -3,10 +3,10 @@ import './App.css';
 import Home from'./Components/home/home.js';
 import Header from './Components/header/Header.js'
 import Welcome from './Components/Welcome.js'
-import All_Category from './Components/home/sections/All_Category.js';
+
 import Footer from './Components/footer/Footer.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import image from "./img/giftown_logo.png";
+import image from "./img/logo.png";
 import { 
     BrowserRouter as Router, 
     Route, 
@@ -14,7 +14,7 @@ import {
     Link
 } from 'react-router-dom';
 
-import Makeup from './Components/home/sections/Makeup';
+import Makeup from './Components/home/sections/PopularPets';
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
           <Header image={image}/>
            <Routes>            
             <Route exact path="/" element={<Home/>}/>
-            <Route path="/categories" element={<All_Category />}/>
+            
             <Route path="/flowers" element={<Makeup />}/>
               
            </Routes>
@@ -36,7 +36,7 @@ function App() {
           <Footer />
 
           
-          <Welcome name="BeautyShopStarApp"/>
+          <Welcome name="PetAdoptionWebsite"/>
 
   </Router> 
 

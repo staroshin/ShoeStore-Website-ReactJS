@@ -45,7 +45,7 @@ font-size: 50px;
 
 	width: 100%;
 
-	background: white;
+	background: #FFFDF4;
 
 	
 	
@@ -122,7 +122,7 @@ text-align: center;
 
 	border-color: #ffffff!important;
    
-    background: #222222!important;
+    background: #45BBBD!important;
     color: #ffffff!important;
 
 	padding: 15px 30px!important;
@@ -227,9 +227,10 @@ h5.card-title.layout1{
 }
 
 .custom_row h1 {
-    color: #141414;
-    font-size: 90px;
-    line-height: 90px;
+	color: #1999B2;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 800;
 }
 
 .custom_img_place img{
@@ -757,21 +758,22 @@ svg.svg-inline--fa.fa-instagram:hover{
 	text-align: left;
     font-size: 14px;
     color: #666666;
-    line-height: 30px;
+    line-height: 25px;
+    height: auto;
     width: 415px;
 
 }
 
 .btn3{
+   
     border-color: transparent!important;
     margin-top: 20px;
-    background: #ffffff!important;
-    color: #d05278!important;
+    background: #fffdf4!important;
+    color: #45BBBD!important;
     padding: 5px 0px!important;
     font-size: 13px!important;
     text-align: left!important;
     float: left;
-    align-self: baseline;
 }
 
 .part9 svg{

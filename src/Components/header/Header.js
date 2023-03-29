@@ -23,48 +23,38 @@ function Header(props) {
       <Container>
         <Navbar.Brand href="#home"><img src={props.image} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
           <Nav className="">
           <nav class="navbar ms-auto">
     <div class = "nav-items">
 
 
     <div class = "nav-item">
-    <NavLink to ="/">HOME
+    <NavLink to ="/">Home
     </NavLink>
     </div>
 
     <div class = "nav-item">
-    <NavLink to="/categories" >PAGES
+    <NavLink to="/about" >About Us
     </NavLink>
     </div>
 
     <div class = "nav-item">
-    <NavLink to="/account">SHOP
+    <NavLink to="/donate">Donate
     </NavLink>
     </div>
 
      <div class = "nav-item">
-    <NavLink to="/notification">CATEGORIES
+    <NavLink to="/contact">Contact
     </NavLink>
     </div>
 
      <div class = "nav-item">
-    <NavLink to="/blog">BLOG
+    <NavLink to="/faq">FAQ
     </NavLink>
     </div>
 
-      <div class = "nav-item">
-    <NavLink to="/contact">CONTACT
-    </NavLink>
-    </div>
-
-
-
-    <div class = "nav-item">
-    <NavLink to="/">
-    </NavLink>
-    </div>
+     
 
   
 
