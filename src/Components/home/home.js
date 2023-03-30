@@ -55,10 +55,10 @@ function Home() {
     <Col md={6}> 
     
     
-   <h2>Find Your New</h2>
-   <h1>Best Friend and Companion</h1>
+   <h2>Find Your Desired</h2>
+   <h1>Shoes Here</h1>
    <div className='cus_para'>
-   <p>This is where you can find your lovable desired pet.</p>
+   <p>This is where you can find your desired shoes.</p>
    </div>
    
 
@@ -111,14 +111,14 @@ function Home() {
       <Container>
     
             <div class="col-12 m-2 text-center ">
-              <h3>Popular Pets Here</h3>
-              <p>This is where you can find your lovable desired pet.</p>
+              <h3>Title  Here</h3>
+              <p>Text Here</p>
         
             </div>
          
 
            
-            <Makeup />
+            {/* <Makeup /> */}
       </Container>
  </div>
  
@@ -137,52 +137,11 @@ function Home() {
      
             <div class="col-12 m-2 text-center ">
               <h3 className='custom_heading'>Our Responsibilities</h3>
-              <p className="custom_text">This is where you can find your lovable desired pet.</p>
+              <p className="custom_text">Text Here</p>
         
             </div>
 
-            <Row className='part9_row justify-content-center align-items-center'>
-    
-
-    
-                <Col md={6} className=" "> 
-                   <Card className=''> 
-                   <img className="img-fluid "src={part9_img1}/>
-                   <Card.Body>
-                   <Card.Title  className="text-left">About Our Pet Home</Card.Title>
-                   <Card.Text>This is where you can find your lovable desired pet. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</Card.Text>
-                  
-                   <Button className="btn3">READ MORE<FontAwesomeIcon icon={faArrowRightLong} size="lg"></FontAwesomeIcon></Button> 
-           
-                   </Card.Body>
-                   </Card>
-                
-                          
-                </Col>
-                <Col md={6} className=" "> 
-                   <Card className=''> 
-                   <img className="img-fluid "src={part9_img2}/>
-                   <Card.Body>
-                   <Card.Title  className="text-left">About Our Pet Food & Diet Chart</Card.Title>
-                   <Card.Text>This is where you can find your lovable desired pet. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</Card.Text>
-                  
-                   <Button className="btn3">READ MORE<FontAwesomeIcon icon={faArrowRightLong} size="lg"></FontAwesomeIcon></Button> 
-
-                   </Card.Body>
-                   </Card>
-                
-                          
-                </Col>
-   
-
-
-    <Row> 
-   
-    </Row>
- 
-
-  </Row>
-         
+          
 
            
          
@@ -197,7 +156,7 @@ function Home() {
       <Col xd={8} md={6}>
       <div className="part10_desc">
             <h2>Stay In Touch</h2>
-            <p>This is where you can find your lovable desired pet.</p>
+            <p>Text Here</p>
 
             <div className='d-flex'>
             <InputGroup className="">
