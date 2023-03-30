@@ -111,7 +111,7 @@ function Home() {
       <Container>
     
             <div class="col-12 m-2 text-center ">
-              <h3>Popular Pets</h3>
+              <h3>Popular Pets Here</h3>
               <p>This is where you can find your lovable desired pet.</p>
         
             </div>
