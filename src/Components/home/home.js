@@ -8,7 +8,7 @@ import {useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF,faTwitter,faInstagram} from '@fortawesome/free-brands-svg-icons';
-import home_img from './img/background_img.png'
+
 
 
 import part9_img1 from './img/part9_img1.png'
@@ -38,7 +38,7 @@ function Home() {
 
  <div className="home" id="home">
 
-         <div className="part_first">
+         <div className="part_first" id="part1">
         
 
          <Container>
@@ -73,7 +73,7 @@ function Home() {
 
 
      
-       <img src={home_img} />
+     
   
 
 

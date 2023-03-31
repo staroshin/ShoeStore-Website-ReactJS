@@ -61,12 +61,10 @@ a.active.active {
  
 }
 .nav-item a.active {
- 
-  background-image: url(./head_img/hover_img.png);
   display: inline-grid;
-    height: 49px;
-    background-size: contain;
-    background-repeat: no-repeat;
+  height: 25px;
+ 
+  border-bottom: 2px solid white;
 }
 
 .form-control{

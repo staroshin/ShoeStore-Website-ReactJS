@@ -36,7 +36,7 @@ function App() {
           <Footer />
 
           
-          <Welcome name="PetAdoptionWebsite"/>
+          <Welcome name="ShoeStoreWebsite"/>
 
   </Router> 
 

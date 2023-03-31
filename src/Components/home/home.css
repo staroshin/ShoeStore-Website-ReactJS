@@ -45,10 +45,15 @@ font-size: 50px;
 
 	width: 100%;
 
-	background: #FFFDF4;
+	background: #192c31;
 
 	
 	
+}
+#part1{
+	background: url('img/background_img.jpg');
+	background-size: cover;
+	height: 750px;
 }
 .part_first img {
     height: 665px;
@@ -122,7 +127,7 @@ text-align: center;
 
 	border-color: #ffffff!important;
    
-    background: #45BBBD!important;
+    background: #192c31!important;
     color: #ffffff!important;
 
 	padding: 15px 30px!important;
@@ -220,6 +225,7 @@ h5.card-title.layout1{
 {
 	
 	align-items: center;
+	padding: 100px;
 }
 .custom_row p
 {
@@ -227,14 +233,14 @@ h5.card-title.layout1{
 }
 
 .custom_row h1 {
-	color: #1999B2;
+	color: #ff0071;
     font-size: 60px;
     line-height: 60px;
     font-weight: 800;
 }
 
 .custom_row h2 {
-	color: #FFB19E;
+	color: white;
     font-size: 60px;
     line-height: 60px;
     font-weight: 400;
@@ -532,9 +538,6 @@ svg.svg-inline--fa.fa-instagram:hover{
 
 
 
-.col_img{
-	background-image: url(./img/background_img.png);
-}
 
 .samp_logo{
 	margin: auto 40px;
@@ -852,4 +855,10 @@ svg.svg-inline--fa.fa-instagram:hover{
 		line-height: 30px;
 		font-weight: 600;
 	}
+	.row.custom_row
+		{
+			
+			
+			padding: 0px;
+		}
 }

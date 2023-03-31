@@ -35,12 +35,12 @@ function Header(props) {
     </div>
 
     <div class = "nav-item">
-    <NavLink to="/about" >About Us
+    <NavLink to="/store" >Store
     </NavLink>
     </div>
 
     <div class = "nav-item">
-    <NavLink to="/donate">Donate
+    <NavLink to="/account">Account
     </NavLink>
     </div>
 
