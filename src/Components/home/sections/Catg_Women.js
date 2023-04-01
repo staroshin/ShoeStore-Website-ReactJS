@@ -25,7 +25,7 @@ import { faFacebookF,faTwitter,faInstagram} from '@fortawesome/free-brands-svg-i
 
 
 
-function PopularPets() {
+function Catg_Women() {
   
 
 
@@ -164,4 +164,4 @@ function PopularPets() {
       
  );
 }
-export default PopularPets;
+export default Catg_Women;

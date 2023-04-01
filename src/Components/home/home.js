@@ -11,8 +11,7 @@ import { faFacebookF,faTwitter,faInstagram} from '@fortawesome/free-brands-svg-i
 
 
 
-import part9_img1 from './img/part9_img1.png'
-import part9_img2 from './img/part9_img2.png'
+
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -26,7 +25,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import Makeup from './sections/PopularPets.js'
+import All_Category from './sections/All_Category.js'
 
 function Home() {
 
@@ -111,8 +110,8 @@ function Home() {
       <Container>
     
             <div class="col-12 m-2 text-center ">
-              <h3>Title  Here</h3>
-              <p>Text Here</p>
+            <h3 className='custom_heading'>Categories</h3>
+             < All_Category />
         
             </div>
          

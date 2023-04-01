@@ -14,7 +14,7 @@ import {
     Link
 } from 'react-router-dom';
 
-import Makeup from './Components/home/sections/PopularPets';
+import Catg_Women from './Components/home/sections/Catg_Women';
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
            <Routes>            
             <Route exact path="/" element={<Home/>}/>
             
-            <Route path="/flowers" element={<Makeup />}/>
+            <Route path="/flowers" element={<Catg_Women />}/>
               
            </Routes>
 
