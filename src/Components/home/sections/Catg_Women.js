@@ -81,11 +81,17 @@ function Catg_Women() {
                     <div class="content">
                         <button><FontAwesomeIcon icon={faMagnifyingGlass} size="lg" className="m-1"  ></FontAwesomeIcon></button>
                       </div>
+
+                      
                       
                         </Card.Body>
                       
 
                        
+                     </Card>
+                     <Card className='text-left'>
+                      <Card.Title>Brown High Heels Sandal</Card.Title>
+                      <img className="rating_icon" src={rate} />
                      </Card>
 
 

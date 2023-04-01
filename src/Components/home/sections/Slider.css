@@ -1,9 +1,14 @@
 .card-body {
     color: #a7a7a4;
        background: transparent;
+       padding: 0px!important;
       
 
 }
+/* .card-body img{
+  width: 100%;
+  background-size: cover;
+} */
 
 .old_price{
     color: #141414;
@@ -124,7 +129,7 @@ a {
     height: 50%;
   }
   
-  .card img {
+  .card-body img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -170,3 +175,13 @@ a {
   .card{
     background-color: transparent!important;
   }
+
+  img.rating_icon {
+    width: 50%;
+}
+
+.card-title {
+
+  margin-bottom: 0.5rem;
+  color: white;
+}
