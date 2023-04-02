@@ -177,11 +177,12 @@ a {
   }
 
   img.rating_icon {
-    width: 50%;
+    width: 35%;
 }
 
 .card-title {
 
   margin-bottom: 0.5rem;
   color: white;
+  text-align: left;
 }
