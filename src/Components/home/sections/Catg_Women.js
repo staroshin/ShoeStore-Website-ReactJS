@@ -44,15 +44,15 @@ function Catg_Women() {
                       <Card className="mb-4 products">
                       <Card.Body>
 
-                      <div class="elms-animation">
-                        <span class="one"></span>
-                        <span class="two"></span>
-                        <span class="three"></span>
-                        <span class="four"></span>
+                      <div className="elms-animation">
+                        <span className="one"></span>
+                        <span className="two"></span>
+                        <span className="three"></span>
+                        <span className="four"></span>
                       </div>
                     <img variant="top" src={car_img} /> 
 
-                    <div class="content">
+                    <div className="content">
                         <button><FontAwesomeIcon icon={faMagnifyingGlass} size="lg" className="m-1"  ></FontAwesomeIcon></button>
                       </div>
                       
@@ -60,6 +60,11 @@ function Catg_Women() {
                       
 
                        
+                     </Card>
+                     <Card className='text-left'>
+                      <Card.Title>Brown High Heels Sandal</Card.Title>
+                      <img className="rating_icon" src={rate} />
+                      <h1 className='price_text'>$24.80</h1>
                      </Card>
 
 
@@ -70,15 +75,15 @@ function Catg_Women() {
                       <Card className="mb-4 products">
                       <Card.Body>
 
-                      <div class="elms-animation">
-                        <span class="one"></span>
-                        <span class="two"></span>
-                        <span class="three"></span>
-                        <span class="four"></span>
+                      <div className="elms-animation">
+                        <span className="one"></span>
+                        <span className="two"></span>
+                        <span className="three"></span>
+                        <span className="four"></span>
                       </div>
                     <img variant="top" src={car_img2} /> 
 
-                    <div class="content">
+                    <div className="content">
                         <button><FontAwesomeIcon icon={faMagnifyingGlass} size="lg" className="m-1"  ></FontAwesomeIcon></button>
                       </div>
 
@@ -92,6 +97,7 @@ function Catg_Women() {
                      <Card className='text-left'>
                       <Card.Title>Brown High Heels Sandal</Card.Title>
                       <img className="rating_icon" src={rate} />
+                      <h1 className='price_text'>$24.80</h1>
                      </Card>
 
 
@@ -104,15 +110,15 @@ function Catg_Women() {
                       <Card className="mb-4 products">
                       <Card.Body>
 
-                      <div class="elms-animation">
-                        <span class="one"></span>
-                        <span class="two"></span>
-                        <span class="three"></span>
-                        <span class="four"></span>
+                      <div className="elms-animation">
+                        <span className="one"></span>
+                        <span className="two"></span>
+                        <span className="three"></span>
+                        <span className="four"></span>
                       </div>
                     <img variant="top" src={car_img3} /> 
 
-                    <div class="content">
+                    <div className="content">
                         <button><FontAwesomeIcon icon={faMagnifyingGlass} size="lg" className="m-1"  ></FontAwesomeIcon></button>
                       </div>
                       
@@ -120,6 +126,11 @@ function Catg_Women() {
                       
 
                        
+                     </Card>
+                     <Card className='text-left'>
+                      <Card.Title>Brown High Heels Sandal</Card.Title>
+                      <img className="rating_icon" src={rate} />
+                      <h1 className='price_text'>$24.80</h1>
                      </Card>
 
 
@@ -131,15 +142,15 @@ function Catg_Women() {
                       <Card className="mb-4 products">
                       <Card.Body>
 
-                      <div class="elms-animation">
-                        <span class="one"></span>
-                        <span class="two"></span>
-                        <span class="three"></span>
-                        <span class="four"></span>
+                      <div className="elms-animation">
+                        <span className="one"></span>
+                        <span className="two"></span>
+                        <span className="three"></span>
+                        <span className="four"></span>
                       </div>
                     <img variant="top" src={car_img4} /> 
 
-                    <div class="content">
+                    <div className="content">
                         <button><FontAwesomeIcon icon={faMagnifyingGlass} size="lg" className="m-1"  ></FontAwesomeIcon></button>
                       </div>
                       
@@ -147,6 +158,11 @@ function Catg_Women() {
                       
 
                        
+                     </Card>
+                     <Card className='text-left'>
+                      <Card.Title>Brown High Heels Sandal</Card.Title>
+                      <img className="rating_icon" src={rate} />
+                      <h1 className='price_text'>$24.80</h1>
                      </Card>
 
 

@@ -109,7 +109,7 @@ function Home() {
   <div className="part2 text-center">
       <Container>
     
-            <div class="col-12 m-2 text-center ">
+            <div className="col-12 m-2 text-center ">
             <h3 className='custom_heading'>Categories</h3>
              < All_Category />
         
@@ -134,7 +134,7 @@ function Home() {
  <div className="part9 text-center">
       <Container>
      
-            <div class="col-12 m-2 text-center ">
+            <div className="col-12 m-2 text-center ">
               <h3 className='custom_heading'>Our Responsibilities</h3>
               <p className="custom_text">Text Here</p>
         

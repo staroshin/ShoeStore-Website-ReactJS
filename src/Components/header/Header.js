@@ -25,31 +25,31 @@ function Header(props) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
           <Nav className="">
-          <nav class="navbar ">
-    <div class = "nav-items">
+          <nav className="navbar ">
+    <div className = "nav-items">
 
 
-    <div class = "nav-item">
+    <div className = "nav-item">
     <NavLink to ="/">Home
     </NavLink>
     </div>
 
-    <div class = "nav-item">
+    <div className = "nav-item">
     <NavLink to="/store" >Store
     </NavLink>
     </div>
 
-    <div class = "nav-item">
+    <div className = "nav-item">
     <NavLink to="/account">Account
     </NavLink>
     </div>
 
-     <div class = "nav-item">
+     <div className = "nav-item">
     <NavLink to="/contact">Contact
     </NavLink>
     </div>
 
-     <div class = "nav-item">
+     <div className = "nav-item">
     <NavLink to="/faq">FAQ
     </NavLink>
     </div>
