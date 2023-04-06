@@ -154,7 +154,7 @@ function Home() {
 
       <Col xd={8} md={6}>
       <div className="part10_desc">
-            <h3 className='custom_heading'>Stay In Touch With Us</h3>
+            <h3 className='custom_heading'>Stay In Touch</h3>
             <p>Text Here</p>
 
             <div className='d-flex'>
