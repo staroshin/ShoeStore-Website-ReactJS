@@ -110,7 +110,7 @@ function Home() {
       <Container>
     
             <div className="col-12 m-2 text-center ">
-            <h3 className='custom_heading mb-4'>Categories</h3>
+            <h3 className='custom_heading mb-4'>The Categories</h3>
              < All_Category />
         
             </div>
